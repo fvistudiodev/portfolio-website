@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fvistudio.dev — Frontend Developer & UI Designer</title>
+  <meta name="description" content="Portfolio of fvistudio.dev — Self-taught Frontend Developer building modern, user-friendly interfaces." />
+
+  <link rel="icon" type="image/png" href="assets/Website-Icon-Black.png" />
+  <link rel="shortcut icon" type="image/png" href="assets/Website-Icon-Black.png" />
+  <link rel="apple-touch-icon" href="assets/Website-Icon-Black.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Collection</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#projects" class="mobile-link">Collection</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">HI, I'M FVI</p>
+        <h1 class="hero-headline">Crafting Digital<br /><em>Experiences.</em></h1>
+        <ul class="hero-bullets">
+          <li>Self-taught Frontend Developer</li>
+          <li>Building modern, user-friendly interfaces</li>
+          <li>Strong focus on usability and visual quality</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">CONTACT ME</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/Persona-1.png" alt="FVI Studio" class="persona-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <span class="section-label">About</span>
+          <h2 class="section-heading">Frontend Developer<br />&amp; <em>UI Enthusiast</em></h2>
+        </div>
+        <div class="about-right">
+          <p class="about-text">
+            I'm a self-taught Frontend Developer passionate about creating modern, user-focused interfaces where clean design meets seamless functionality. From onboarding flows and authentication systems to dashboards and other user-facing experiences, I focus on the details that make products intuitive, polished, and enjoyable to use.
+          </p>
+          <a href="#contact" class="btn btn-primary" style="margin-top:1.5rem;">CONTACT ME</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">PROJECTS</span>
+        <p class="section-sub">Each project reflects my focus on clean design, attention to detail, and building products that users genuinely enjoy interacting with.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-image-wrap">
+            <img src="assets/Showcase-1.png" alt="Authentication Flows" class="project-img" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Authentication Flows</h3>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Dart</span>
+              <span class="project-tag">Firebase</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image-wrap">
+            <img src="assets/Showcase-2.png" alt="Finance Management" class="project-img" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Finance Management</h3>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Dart</span>
+              <span class="project-tag">API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image-wrap">
+            <img src="assets/Showcase-3.png" alt="Functional APIs" class="project-img" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Functional API's</h3>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Dart</span>
+              <span class="project-tag">API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image-wrap">
+            <img src="assets/Showcase-4.png" alt="Redesigns" class="project-img" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Redesigns</h3>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Dart</span>
+              <span class="project-tag">Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="contact-persona-wrap">
+            <img src="assets/Persona-2.png" alt="FVI Studio" class="contact-persona" />
+          </div>
+        </div>
+        <div class="contact-right">
+          <span class="section-label">Contact</span>
+          <h2 class="section-heading">Get in touch</h2>
+          <p class="contact-sub">Let's collaborate! I'm always open to discussing new projects and opportunities</p>
+
+          <form
+            action="https://formspree.io/f/mwvdqwdz"
+            method="POST"
+            class="contact-form"
+            id="contactForm"
+          >
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+            <p class="form-success" id="formSuccess">Thank you! I'll be in touch shortly.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">©All rights reserved - fvistudio.dev</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

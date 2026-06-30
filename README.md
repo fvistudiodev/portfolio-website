@@ -24,7 +24,7 @@ Right Click → Open with Live Server
 
 Visit the portfolio here:
 
-**https://fvistudiodev.github.io/portfolio-website/**
+**https://fvistudiodev.github.io/Portfolio-Website/**
 
 ## License
 
